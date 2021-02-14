@@ -1,17 +1,18 @@
 body {
     font-size: .2rem;
+    color: grey;
 }
-
-.index {}
 
 #time {
     text-align: right;
     margin-top: 3%;
     margin-right: 10%;
 }
-hr{
+
+hr {
     width: 60%;
 }
+
 #year {
     font-size: 1rem;
     color: pink;
@@ -22,4 +23,18 @@ hr{
 #second {
     font-size: .3rem;
     color: pink;
+}
+
+.text1,.text2 {
+    font-size: .8rem;
+    font-family: 楷体;
+    position: absolute;
+}
+
+.text1 {
+    bottom: 2rem;
+}
+.text2{
+    bottom: 1rem;
+    left: 1rem;
 }
