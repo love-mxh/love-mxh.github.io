@@ -12,6 +12,7 @@ var second = document.getElementById('second');
 
 function show() {
     var dateStar = new Date('2020-9-7').getTime();
+    var dateStar = new Date('2020/9/7').getTime();
     var dateNow = new Date().getTime();
     var dateS_N = dateNow - dateStar;
     var datePut = Math.floor(dateS_N / (24 * 3600 * 1000));
