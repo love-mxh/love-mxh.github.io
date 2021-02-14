@@ -1,0 +1,25 @@
+body {
+    font-size: .2rem;
+}
+
+.index {}
+
+#time {
+    text-align: right;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+hr{
+    width: 60%;
+}
+#year {
+    font-size: 1rem;
+    color: pink;
+}
+
+#hours,
+#minute,
+#second {
+    font-size: .3rem;
+    color: pink;
+}

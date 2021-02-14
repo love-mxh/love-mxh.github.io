@@ -4,48 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #year {
-            font-size: 2rem;
-            color: pink;
-        }
-    </style>
-    <!-- 2020.9.8 -->
+    <title>喜欢你</title>
+    <link rel="stylesheet" href="./index-css/css.css">
 </head>
 
 <body onload="show()">
-    <div>
+    <div class="index">
         <div id="time">
-            第<span id="year"></span>天
-            <span id="hours"></span>时
-            <span id="minute"></span>分
-            <span id="second"></span>秒
+            喜欢马晓惠的第<span id="year"></span>天
+            <span id="hours"> </span> 时
+            <span id="minute"> </span> 分
+            <span id="second"> </span> 秒
         </div>
+        <hr>
     </div>
-    <script>
-        var year = document.getElementById('year');
-        var hours = document.getElementById('hours');
-        var minute = document.getElementById('minute');
-        var second = document.getElementById('second');
-
-        function show() {
-            var dateStar = new Date('2020-9-7').getTime();
-            var dateNow = new Date().getTime();
-            var dateS_N = dateNow - dateStar;
-            var datePut = Math.floor(dateS_N / (24 * 3600 * 1000));
-            var dateHours = new Date().getHours();
-            var dateMinute = new Date().getMinutes();
-            var dateSecond = new Date().getSeconds();
-
-            year.innerHTML = datePut;
-            hours.innerHTML = dateHours;
-            minute.innerHTML = dateMinute;
-            second.innerHTML = dateSecond;
-            var timeID = setTimeout(show, 1000);
-        }
-
-    </script>
+    <script src="./index-js/js.js"></script>
 </body>
 
 </html>
