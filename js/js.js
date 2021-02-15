@@ -23,6 +23,10 @@ function show() {
     year.innerHTML = datePut;
     hours.innerHTML = dateHours;
     minute.innerHTML = dateMinute;
-    second.innerHTML = dateSecond;
+    if (dateSecond < 10) {
+        second.innerHTML = '0' + dateSecond;
+    } else {
+        second.innerHTML = dateSecond;
+    }
     var timeID = setTimeout(show, 1000);
 }
