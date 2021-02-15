@@ -5,6 +5,10 @@ if (deviceWidth > 750)
     deviceWidth = 750;
 document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
 
+$(window).resize(function () {
+    location.reload()
+});
+
 var year = document.getElementById('year');
 var hours = document.getElementById('hours');
 var minute = document.getElementById('minute');

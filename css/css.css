@@ -1,8 +1,16 @@
 @media screen and (max-width: 410px) {
-    body{
+
+    body {
         background-image: url(../img/bk.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
+    }
+
+    #time {
+        color: rgb(255, 255, 255);
+    }
+    .index{
+        margin-top: 40%;
     }
 }
 
@@ -30,7 +38,7 @@ hr {
 #hours,
 #minute,
 #second {
-    font-size: .3rem;
+    font-size: .4rem;
     color: pink;
 }
 
