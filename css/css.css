@@ -9,14 +9,20 @@
     #time {
         color: rgb(255, 255, 255);
     }
-    .index{
+
+    .index {
         margin-top: 40%;
+    }
+
+    .text1,
+    .text2 {
+        color: black;
     }
 }
 
 body {
     font-size: .2rem;
-    color: rgb(58, 57, 57);
+    color: gray;
     background-color: lightcyan;
 }
 
